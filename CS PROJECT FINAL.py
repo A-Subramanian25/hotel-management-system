@@ -84,7 +84,7 @@ WORKER_TABLE_NAME='workers'
       
 
 def get_database():
-    database = mysql.connector.connect(host='localhost',user='root',password='ak25subbu2004',database='hotel')
+    database = mysql.connector.connect(host='localhost',user='root',password='',database='hotel')
     cursor = database.cursor()
     return database, cursor
 
